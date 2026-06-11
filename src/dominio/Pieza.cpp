@@ -1,5 +1,6 @@
 #include "../../include/dominio/Pieza.h"
 
+
 Pieza::Pieza(Color c, int f, int col) {
     color = c;
     fila = f;
@@ -25,6 +26,7 @@ int Pieza::getColumna() const {
 bool Pieza::getEsReina() const {
     return esReina;
 }
+
 
 void Pieza::setFila(int nuevaFila) {
     fila = nuevaFila;
