@@ -1,0 +1,7 @@
+# Archivos compilados
+*.exe
+*.o
+*.obj
+# Archivos de Dev-C++
+*.dev
+*.layout
